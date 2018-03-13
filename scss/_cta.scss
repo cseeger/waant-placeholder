@@ -2,8 +2,10 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/WAANT-temp-home.jpg');
+    background-image: url('../img/waant-coming-soon.jpg');
     background-position: center;
     @include background-cover;
-    height: 100%;
+    width: 800px;
+    height: 492px;
+    margin: 0 auto;
 }

@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - New Age v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 html,
@@ -9,7 +9,8 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  background-color: #adabac; }
 
 a {
   color: #fdcc52;
@@ -51,13 +52,15 @@ section {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/WAANT-temp-home.jpg");
+  background-image: url("../img/waant-coming-soon.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%; }
+  width: 800px;
+  height: 492px;
+  margin: 0 auto; }
 
 .bg-primary {
   background: #fdcc52;
