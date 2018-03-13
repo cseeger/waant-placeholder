@@ -4,8 +4,7 @@ section.cta {
     padding: 250px 0;
     background-image: url('../img/waant-coming-soon.jpg');
     background-position: center;
-    @include background-cover;
-    width: 800px;
-    height: 492px;
+    @include background-contain;
     margin: 0 auto;
+    background-repeat: no-repeat;
 }

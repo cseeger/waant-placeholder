@@ -54,13 +54,12 @@ section.cta {
   padding: 250px 0;
   background-image: url("../img/waant-coming-soon.jpg");
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 800px;
-  height: 492px;
-  margin: 0 auto; }
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0 auto;
+  background-repeat: no-repeat; }
 
 .bg-primary {
   background: #fdcc52;
